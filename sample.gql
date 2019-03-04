@@ -2,7 +2,7 @@ type User {
   id: ID!
   name: String!
   age: Int!
-  nickname: String
+  nickname: String!
 }
 
 type Book {
