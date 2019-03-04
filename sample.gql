@@ -9,5 +9,6 @@ type Book {
 }
 
 type Query {
-  books: [Book]
+  books: [Book]!
+  users: [User]!
 }
